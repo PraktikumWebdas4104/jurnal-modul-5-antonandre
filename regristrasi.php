@@ -30,7 +30,11 @@
 		</tr>		
 	</table>
 </form>
-
-
+<?php 
+	if(isset($_POST['kirim']){
+		include 'prosesregris.php';
+	}
+?>
 </body>
 </html>
+ 
